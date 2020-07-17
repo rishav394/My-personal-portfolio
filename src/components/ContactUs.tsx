@@ -12,7 +12,9 @@ export default class ContactUs extends PureComponent<Props> {
 			<section id="contact">
 				<div className="row section-head">
 					<div className="ten columns">
-						<p className="lead">Feel free to contact me</p>
+						<p className="lead">
+							Feel free to contact me (Section under development)
+						</p>
 					</div>
 				</div>
 				<div className="row" style={{ marginTop: -19 }}>

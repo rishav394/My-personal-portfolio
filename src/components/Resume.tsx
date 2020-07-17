@@ -29,7 +29,6 @@ export default class Resume extends PureComponent<Props, State> {
 			() => {
 				if (!this.state.expandedSkills) {
 					(this.skillRef as HTMLDivElement).scrollIntoView();
-					console.log('scrolling');
 				}
 			},
 		);
@@ -156,6 +155,7 @@ export default class Resume extends PureComponent<Props, State> {
 							}}
 						>
 							<img
+								className={'skills-expander'}
 								style={{
 									height: '45px',
 									width: '45px',

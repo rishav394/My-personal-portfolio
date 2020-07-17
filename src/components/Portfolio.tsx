@@ -12,7 +12,7 @@ export default class Porfolio extends PureComponent<Props> {
 			<section id="portfolio">
 				<div className="row">
 					<div className="twelve columns collapsed">
-						<h1>My Work</h1>
+						<h1>My Projects</h1>
 						<h1>In Progress....</h1>
 						{/* <div
 							id="portfolio-wrapper"

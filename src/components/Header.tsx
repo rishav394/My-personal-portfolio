@@ -36,7 +36,7 @@ export default class Header extends PureComponent<Props> {
 							</li>
 							<li>
 								<a className="smoothscroll" href="#portfolio">
-									Works
+									Projects
 								</a>
 							</li>
 							<li>
