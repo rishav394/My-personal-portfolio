@@ -166,15 +166,15 @@ const resumeData: ResumeType = {
 			name: 'Random',
 		},
 		{
-			description: 'Sample testimonial',
+			description: 'Under Development',
 			name: 'Random',
 		},
 		{
-			description: 'Sample testimonial',
+			description: 'Under Development',
 			name: 'Random',
 		},
 		{
-			description: 'Sample testimonial',
+			description: 'Under Development',
 			name: 'Random',
 		},
 	],

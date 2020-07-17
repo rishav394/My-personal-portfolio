@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { ResumeType } from '../types';
+import { UnderDevelopment } from './UnderDevelopment';
 
 type Props = {
 	resumeData: ResumeType;
@@ -13,7 +14,7 @@ export default class Porfolio extends PureComponent<Props> {
 				<div className="row">
 					<div className="twelve columns collapsed">
 						<h1>My Projects</h1>
-						<h1>In Progress....</h1>
+						<UnderDevelopment iamgeStyles={{ height: 200 }} />
 						{/* <div
 							id="portfolio-wrapper"
 							className="bgrid-quarters s-bgrid-thirds cf"
