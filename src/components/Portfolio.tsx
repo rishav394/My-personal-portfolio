@@ -8,7 +8,6 @@ type Props = {
 
 export default class Porfolio extends PureComponent<Props> {
 	render() {
-		let resumeData = this.props.resumeData;
 		return (
 			<section id="portfolio">
 				<div className="row">

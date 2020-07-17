@@ -7,7 +7,6 @@ type Props = {
 
 export default class ContactUs extends PureComponent<Props> {
 	render() {
-		let resumeData = this.props.resumeData;
 		return (
 			<section id="contact">
 				<div className="row section-head">

@@ -15,6 +15,7 @@ export default class Header extends PureComponent<Props> {
 						<a className="mobile-btn" href="#nav-wrap" title="Show navigation">
 							Show navigation
 						</a>
+						{/* eslint-disable-next-line */}
 						<a className="mobile-btn" href="#" title="Hide navigation">
 							Hide navigation
 						</a>

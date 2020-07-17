@@ -156,6 +156,7 @@ export default class Resume extends PureComponent<Props, State> {
 						>
 							<img
 								className={'skills-expander'}
+								alt=""
 								style={{
 									height: '45px',
 									width: '45px',
