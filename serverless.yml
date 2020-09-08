@@ -1,0 +1,14 @@
+app: rishav-space # (required) Replace with your app name
+name: portfolio # (required) Replace with your component name
+component: website
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./build # (required) Replace with your build directory
+  domain: rishav.space # (optional) Replace with your domain name. this could also be a subdomain.
+  region: ap-south-1 # (optional) aws region to deploy to. default is us-east-1.
+  bucketName: rishav.space # (optional) Replace with your aws bucket name. default is an auto generated name.
+  indexDocument: index.html # (optional) Replace with your index document for your website. default is index.html.
+  errorDocument: index.html # (optional) Replace with your index document for your website. default is index.html.
